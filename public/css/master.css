@@ -9,6 +9,7 @@ body{
 @media only screen and (max-width: 768px) {
   body{
     background-image: url(/images/nature11.jpg);
+    background-color: #e67300;
   }
   .box img{
     height: 100%;
