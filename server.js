@@ -7,7 +7,7 @@ var mongoose = require('mongoose');
 var User = require('./backEnd/model');
 //mongodb://<dbuser>:<dbpassword>@ds129013.mlab.com:29013/newsportal
 //mongoose.connect('mongodb://localhost:27017/newsPortal', { useMongoClient: true}, function(err) {
-mongoose.connect('mongodb://SP001:iamsp001@ds129013.mlab.com:29013/newsportal', { useMongoClient: true}, function(err) {
+mongoose.connect('mongodb://SP001:iamsp001@ds129013.mlab.com:29013/newsportal', function(err) {
   mongoose.Promise = global.Promise;
   if(err) {
     console.log('not ok' + err);

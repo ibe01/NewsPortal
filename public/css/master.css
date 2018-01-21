@@ -10,7 +10,7 @@ body{
   body{
     background-image: url(/images/nature11.jpg);
   }
-  .box{
+  .box img{
     height: 100%;
     width: 100%;
   }
@@ -35,6 +35,20 @@ body{
   border-color: #fff;
 }
 .box img{
+  max-height: 249px;
+  max-height: 250px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.box{
+  max-height: 300px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+/*
+.box img{
   max-height: 80px;
   overflow: hidden;
   height: 100%;
@@ -46,3 +60,4 @@ body{
   height: 100%;
   width: 100%;
 }
+*/
