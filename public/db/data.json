@@ -1,0 +1,32 @@
+[
+  {
+    "header" : "Smart City",
+    "image" : "images/flower1.jpeg",
+    "desc" : "it's nice.."
+  },
+  {
+    "header" : "Simple City",
+    "image" : "images/nature1.jpg",
+    "desc" : "it's ok.."
+  },
+  {
+    "header" : "New City",
+    "image" : "images/new11.jpg",
+    "desc" : "it's perfect.."
+  },
+  {
+    "header" : "Smart City",
+    "image" : "images/flower1.jpeg",
+    "desc" : "it's nice.."
+  },
+  {
+    "header" : "Simple City",
+    "image" : "images/nature1.jpg",
+    "desc" : "it's ok.."
+  },
+  {
+    "header" : "New City",
+    "image" : "images/new11.jpg",
+    "desc" : "it's perfect.."
+  }
+]

@@ -1,0 +1,48 @@
+body{
+  background-image: url(/images/bg14.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: green;
+  }
+@media only screen and (max-width: 768px) {
+  body{
+    background-image: url(/images/nature11.jpg);
+  }
+  .box{
+    height: 100%;
+    width: 100%;
+  }
+  }
+@media only screen and (min-width: 768px) {
+
+  }
+
+.navbar-dafault{
+  background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+.post{
+  margin-top: 40px;
+}
+.post input, .btn{
+  border-radius: 0 6px 0 6px;
+  margin-top: 20px;
+  background: transparent;
+  border-color: #fff;
+}
+.box img{
+  max-height: 80px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.box{
+  max-height: 150px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}

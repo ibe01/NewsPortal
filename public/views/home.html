@@ -1,0 +1,31 @@
+<!--
+ <div class="row text-center">
+  <div class="col-sm-2 box" ng-repeat="m in main" ng-click="go(m.header, m.image, m.desc)">
+    <h3>{{m.header}}</h3>
+    <div class="thumbnail">
+      <img src="{{m.image}}" alt="Paris" width="400" height="300">
+    </div>
+    <p>{{m.desc}}</p>
+  </div>
+</div>
+
+  <div class="row text-center">
+    <div class="col-sm-3 col-md-2 over" ng-repeat="m in main" ng-click="go(m.header, m.image, m.desc)">
+      <div class="thumbnail">
+        <img src="{{m.image}}" alt="Paris">
+        <p><strong>{{m.header}}</strong></p>
+        <p>Yes, we built Paris</p>
+      </div>
+    </div>
+  </div>
+-->
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-sm-3 col-md-2 box" ng-repeat="m in main" ng-click="go(m.header, m.image, m.desc)">
+        <p><strong>{{m.header}}</strong></p>
+        <img src="{{m.image}}" class="img-responsive margin" style="width:100%" alt="Paris">
+        <p class="over">{{m.desc}}</p>
+      </div>
+    </div>
+  </div>
